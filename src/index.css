@@ -1,5 +1,10 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --main-font: "Montserrat", sans-serif;
+  --dark-color: #263243;
+  --light-color: #ffffff;
+  --gray-color: #636b79;
+  --sky-color: #3871ff;
+
   line-height: 1.5;
   font-weight: 400;
 
@@ -10,6 +15,7 @@
 }
 
 body {
+  font-family: var(--main-font);
   margin: 0;
   display: flex;
   place-items: center;
