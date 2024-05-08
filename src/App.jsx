@@ -1,7 +1,9 @@
+import NavBar from "./components/NavBar";
+
 function App() {
   return (
     <>
-      <h1>DOMO Frontend Challenge</h1>
+      <NavBar />
     </>
   );
 }

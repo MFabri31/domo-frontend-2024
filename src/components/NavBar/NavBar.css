@@ -1,0 +1,8 @@
+.nav-link {
+  color: var(--gray-color) !important;
+}
+
+.nav-link:first-child,
+.nav-link:last-child {
+  color: var(--light-color) !important;
+}
