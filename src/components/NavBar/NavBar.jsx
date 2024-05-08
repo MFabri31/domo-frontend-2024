@@ -32,7 +32,7 @@ function NavBar() {
   return (
     <Navbar
       expand="lg"
-      className="position-absolute w-100 py-4 bg-transparent"
+      className="position-absolute w-100 py-4 bg-transparent z-1"
       data-bs-theme="dark"
     >
       <Container>

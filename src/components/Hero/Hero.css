@@ -1,0 +1,28 @@
+.hero {
+  padding-top: 15rem;
+}
+
+.bg-img {
+  background-image: url("../../assets//hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 52rem;
+}
+
+.hero h1 {
+  color: var(--light-color);
+}
+
+.btn {
+  font-size: 0.7rem !important;
+}
+
+.hero p {
+  color: var(--gray-color);
+}
+
+.btn-projects {
+  background-color: var(--sky-color) !important;
+  border-radius: none;
+}
