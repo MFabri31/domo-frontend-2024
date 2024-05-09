@@ -1,0 +1,7 @@
+.services {
+  padding-top: 15rem !important;
+}
+
+p {
+  color: var(--gray-color);
+}

@@ -25,7 +25,7 @@ const Hero = () => {
           </Col>
           <Col
             md={5}
-            className="bg-img position-absolute top-0 end-0 z-0 d-none d-md-block"
+            className="bg-img position-absolute top-0 end-0 z-n1 d-none d-md-block"
           ></Col>
         </Row>
       </Container>

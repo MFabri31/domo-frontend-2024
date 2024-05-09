@@ -1,0 +1,19 @@
+{
+  "services": [
+    {
+      "title": "Business & Product Concept",
+      "description": "Analize business and product concepts at Start-up Workshops or Ongoing Projects. Audits and prepare viable and sensible product roadmap for achieving a perfect market fit.",
+      "image": ""
+    },
+    {
+      "title": "Web & Mobile Development",
+      "description": "Plan, develop and test high-quality web-applications using AngularJs, NodeJs,JavaScript,Typescript,HTML5 and SASS/CSS3 frameworks and native movile languages.",
+      "image": ""
+    },
+    {
+      "title": "UX & UI Design",
+      "description": "Sketch information architecture and simple mock-ups, convert them into clickable prototypes and finish with usable interface desings to deliver a good and reliable user experience",
+      "image": ""
+    }
+  ]
+}
