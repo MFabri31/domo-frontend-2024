@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import ListService from "./components/ListService/ListService";
+import Technologies from "./components/Technologies/Technologies";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <NavBar />
       <Hero />
       <ListService />
+      <Technologies />
     </>
   );
 }

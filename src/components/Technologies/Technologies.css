@@ -1,0 +1,14 @@
+.technologies {
+  background-color: var(--sky-color);
+  padding: 8rem 0 !important;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(2, 10rem);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+  row-gap: 1.5rem;
+  place-content: center;
+  justify-items: center;
+}
