@@ -1,0 +1,10 @@
+.clients {
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+}
+
+@media (min-width: 768px) {
+  .clients h3 {
+    font-size: 1rem;
+  }
+}
