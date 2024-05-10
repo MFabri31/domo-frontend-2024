@@ -1,0 +1,6 @@
+.cta-card {
+  background-color: var(--sky-color) !important;
+  color: var(--light-color) !important;
+  position: relative;
+  bottom: 10rem;
+}

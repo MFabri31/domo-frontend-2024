@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import ListService from "./components/ListService/ListService";
 import Technologies from "./components/Technologies/Technologies";
 import Clients from "./components/Clients/Clients";
+import CtaCards from "./components/CtaCards/CtaCards";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ListService />
       <Technologies />
       <Clients />
+      <CtaCards />
     </>
   );
 }
