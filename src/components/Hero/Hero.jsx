@@ -3,7 +3,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="about">
       <Container>
         <Row>
           <Col xs={12} md={6} className="text-center text-md-start">

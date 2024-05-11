@@ -9,7 +9,7 @@ import PythonIcon from "../../assets/icons/python-icon.svg";
 
 const Technologies = () => {
   return (
-    <section className="text-white  technologies">
+    <section className="text-white technologies" id="technology">
       <Container>
         <Row
           md={12}

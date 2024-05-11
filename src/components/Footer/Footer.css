@@ -1,0 +1,9 @@
+.footer a {
+  color: var(--gray-color) !important;
+  text-decoration: none;
+}
+
+.footer-title {
+  font-size: 0.7rem !important;
+  letter-spacing: 2px;
+}

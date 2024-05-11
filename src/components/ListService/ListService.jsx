@@ -4,7 +4,7 @@ import data from "../../data.json";
 
 const ListService = () => {
   return (
-    <section className="text-light text-center services">
+    <section className="text-light text-center services" id="services">
       <Container>
         <Row className="justify-content-center">
           <Col md={6}>

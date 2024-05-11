@@ -4,6 +4,7 @@ import ListService from "./components/ListService/ListService";
 import Technologies from "./components/Technologies/Technologies";
 import Clients from "./components/Clients/Clients";
 import CtaCards from "./components/CtaCards/CtaCards";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Technologies />
       <Clients />
       <CtaCards />
+      <Footer />
     </>
   );
 }
