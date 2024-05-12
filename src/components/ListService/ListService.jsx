@@ -18,11 +18,15 @@ const ListService = () => {
         <Row className="justify-content-center mt-4">
           {data.services.map((service) => (
             <Col key={service.title} md={4}>
-              <Card style={{ width: "25rem" }} className="rounded-0">
+              <Card
+                style={{ width: "25rem" }}
+                className="rounded-0 service-card py-5"
+              >
                 <Card.Img
                   variant="top"
                   src={service.image}
-                  className="img-fluid w-25"
+                  className="img-fluid mx-auto"
+                  style={{ width: "70px" }}
                 />
                 <Card.Body className="d-flex flex-column gap-3 align-items-center">
                   <Card.Title>{service.title}</Card.Title>

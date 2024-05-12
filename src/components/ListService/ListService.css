@@ -2,6 +2,11 @@
   padding-top: 15rem !important;
 }
 
+.service-card {
+  position: relative;
+  top: 5.5rem;
+}
+
 p {
   color: var(--gray-color);
 }
