@@ -15,13 +15,10 @@ const ListService = () => {
             </p>
           </Col>
         </Row>
-        <Row className="justify-content-center mt-4">
+        <Row className="align-items-center mt-4">
           {data.services.map((service) => (
-            <Col key={service.title} md={4}>
-              <Card
-                style={{ width: "25rem" }}
-                className="rounded-0 service-card py-5"
-              >
+            <Col key={service.title} xs={12} md={4} className="mb-3">
+              <Card className="rounded-0 service-card py-5 px-2">
                 <Card.Img
                   variant="top"
                   src={service.image}
