@@ -5,6 +5,7 @@ import Technologies from "./components/Technologies/Technologies";
 import Clients from "./components/Clients/Clients";
 import CtaCards from "./components/CtaCards/CtaCards";
 import Footer from "./components/Footer/Footer";
+import ScrollUpButton from "./components/ScrollButton/ScrollUpButton";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Clients />
       <CtaCards />
       <Footer />
+      <ScrollUpButton />
     </>
   );
 }
