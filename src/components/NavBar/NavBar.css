@@ -1,8 +1,15 @@
-.nav-link {
+.navlink {
   color: var(--gray-color) !important;
 }
 
-.nav-link:first-child,
-.nav-link:last-child {
+.navlink:first-child,
+.navlink:last-child {
   color: var(--light-color) !important;
+}
+
+.hire-us-icon {
+  position: absolute;
+  right: 17rem;
+  top: 2.3rem;
+  width: 1.3rem;
 }

@@ -1,5 +1,6 @@
 import { Container, Navbar, Nav } from "react-bootstrap";
 import "./NavBar.css";
+import HireUsIcon from "../../assets/icons/hireus-icon.png";
 
 const LINKS = [
   {
@@ -42,15 +43,20 @@ function NavBar() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="ms-auto my-2 my-lg-0"
+            className="ms-auto my-2 my-lg-0 nav"
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
             {LINKS.map((link) => (
-              <Nav.Link key={link.label} className="nav-link" href={link.href}>
+              <Nav.Link
+                key={link.label}
+                className="navlink mx-3"
+                href={link.href}
+              >
                 {link.label}
               </Nav.Link>
             ))}
+            <img src={HireUsIcon} alt="Hire us icon" className="hire-us-icon" />
           </Nav>
         </Navbar.Collapse>
       </Container>
