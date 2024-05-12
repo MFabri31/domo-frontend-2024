@@ -13,7 +13,7 @@ const Technologies = () => {
       <Container>
         <Row
           md={12}
-          className="justify-content-between text-center text-md-start"
+          className="justify-content-between align-items-center text-center text-md-start"
         >
           <Col xs={12} md={5} className="mb-5 mb-md-0">
             <h3 className="mb-3 fs-3">We use cutting edge technology</h3>
